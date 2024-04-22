@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Gilroy";
+    src: url(./Gilroy-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy'
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+Example
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
